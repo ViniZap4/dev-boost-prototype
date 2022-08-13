@@ -1,16 +1,15 @@
 import React from 'react';
 
-// import { Container } from './styles';
-
+//imporring Global Styles
 import GlobalStyle from '../Styles/global';
 
+import AppRouter from '../Router'
+
 const App: React.FC = () => {
-  return (
-    <div>
+  return (<>
       <GlobalStyle />
-      <h1> Hello World! </h1>
-    </div>
-  );
+      <AppRouter />
+    </>);
 }
 
 export default App;
