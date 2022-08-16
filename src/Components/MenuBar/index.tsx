@@ -2,12 +2,12 @@ import React from 'react';
 
 import { Container } from './styles';
 
-const Home: React.FC = () => {
+const MenuBar: React.FC = () => {
   return (
     <Container>
-      Bem vindo ao Dev boost!
+      
     </Container>
   );
 }
 
-export default Home;
+export default MenuBar;

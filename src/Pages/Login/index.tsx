@@ -2,12 +2,12 @@ import React from 'react';
 
 import { Container } from './styles';
 
-const Home: React.FC = () => {
+const Login: React.FC = () => {
   return (
     <Container>
-      Bem vindo ao Dev boost!
+      Login
     </Container>
   );
 }
 
-export default Home;
+export default Login;
