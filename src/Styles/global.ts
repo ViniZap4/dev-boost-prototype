@@ -22,5 +22,12 @@ export default createGlobalStyle`
       monospace;
   }
 
+  button{
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+
   
 `
